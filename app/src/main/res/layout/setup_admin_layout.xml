@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/chnage_admin_password_btn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edit_view_height"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:onClick="onClickAction"
+                android:text="Change Admin Password"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/edit_view_height"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="onClickAction"
+                android:textAllCaps="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="@dimen/edit_view_height"
+            android:layout_marginTop="5dp"
+            android:background="@color/amberInvisibleColorPrimary"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/edit_view_height"
+                android:text="Admin Area"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

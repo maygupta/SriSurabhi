@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="cardBackgroundColor">#FF0000</color>
+    <color name="app_button_color">#2CA6CF</color>
+    <color name="light_white">#fcfcfc</color>
+
+    <color name="primary">#7AA4D5</color>
+    <color name="primary_dark">#165E8B</color>
+    <color name="accent">#7AA4D5</color>
+    <color name="persian_green_primary">#0DAC8F</color>
+    <color name="persian_green_dark">#0A927A</color>
+    <color name="persian_green_accent">#0A927A</color>
+    <color name="pink_primary">#EB1E63</color>
+    <color name="pink_dark">#C0175C</color>
+    <color name="pink_accent">#C0175C</color>
+    <color name="royal_blue_primary">#4C63E2</color>
+    <color name="royal_blue_dark">#4055BF</color>
+    <color name="royal_blue_accent">#4055BF</color>
+    <color name="purple_primary">#9C28B1</color>
+    <color name="purple_dark">#7A1FA2</color>
+    <color name="purple_accent">#7A1FA2</color>
+    <color name="orange_accent">#F3A62E</color>
+    <color name="indigo">#3E50AE</color>
+    <color name="pink">#FF427C</color>
+    <color name="grey">#C2C2C2</color>
+
+    <!-- toggle light Colours -->
+
+    <!-- Disabled View Gradient Colours -->
+
+    <!-- Focused View Gradient Colours 8B8E92 -->
+
+    <!-- Normal View Gradient Colours 8E8C8C -->
+
+    <!-- Option 2 -->
+    <!-- Chimney Smoke -->
+    <!-- White -->
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="amberInvisibleColorPrimary">#746303</color>
+    <color name="amberColorPrimary">#746303</color>
+    <color name="amberColorPrimaryDark">#483d02</color>
+    <color name="amberColorAccent">#746303</color>
+    <color name="amberColorBackground">#F7DE53</color>
+
+    <color name="blueInvisibleGrayColorPrimary">#c7e2ef</color>
+    <color name="blueGrayColorPrimary">#607D8B</color>
+    <color name="blueGrayColorPrimaryDark">#263238</color>
+    <color name="blueGrayColorAccent">#880E4F</color>
+
+    <color name="brownColorPrimary">#795548</color>
+    <color name="brownColorPrimaryDark">#3E2723</color>
+    <color name="brownColorAccent">#1B5E20</color>
+    <color name="brownColorBackground">#EFEBE9</color>
+
+    <color name="deepOrangeColorPrimary">#FF5722</color>
+    <color name="deepOrangeColorPrimaryDark">#BF360C</color>
+    <color name="deepOrangeColorAccent">#1B5E20</color>
+    <color name="deepOrangeColorBackground">#FBE9E7</color>
+
+    <color name="orangeColorPrimary">#FF9800</color>
+    <color name="orangeColorPrimaryDark">#E65100</color>
+    <color name="orangeColorAccent">#1B5E20</color>
+    <color name="orangeColorBackground">#FFF3E0</color>
+
+
+    <!--
+    <color name="amberInvisibleColorPrimary">#e9daae</color>
+    <color name="amberColorPrimary">#FFC107</color>
+    <color name="amberColorPrimaryDark">#FF6F00</color>
+    <color name="amberColorAccent">#7CB342</color>
+    <color name="amberColorBackground">#FFF8E1</color>
+    -->
+    <color name="yellowColorPrimary">#FFEB3B</color>
+    <color name="yellowColorPrimaryDark">#F57F17</color>
+    <color name="yellowColorAccent">#7CB342</color>
+    <color name="yellowColorBackground">#FFFDE7</color>
+
+    <color name="limeColorPrimary">#CDDC39</color>
+    <color name="limeColorPrimaryDark">#7CB342</color>
+    <color name="limeColorAccent">#880E4F</color>
+    <color name="limeColorBackground">#F9FBE7</color>
+
+    <color name="lightGreenColorPrimary">#8BC34A</color>
+    <color name="lightGreenColorPrimaryDark">#7CB342</color>
+    <color name="lightGreenColorAccent">#880E4F</color>
+    <color name="lightGreenColorBackground">#F1F8E9</color>
+
+    <color name="greenColorPrimary">#4CAF50</color>
+    <color name="greenColorPrimaryDark">#1B5E20</color>
+    <color name="greenColorAccent">#880E4F</color>
+    <color name="greenColorBackground">#E8F5E9</color>
+
+    <color name="tealColorPrimary">#009688</color>
+    <color name="tealColorPrimaryDark">#004D40</color>
+    <color name="tealColorAccent">#880E4F</color>
+    <color name="tealColorBackground">#E0F2F1</color>
+
+    <color name="cyanColorPrimary">#03A9F4</color>
+    <color name="cyanColorPrimaryDark">#01579B</color>
+    <color name="cyanColorAccent">#FF4081</color>
+    <color name="cyanColorBackground">#E1F5FE</color>
+
+    <color name="lightBlueColorPrimary">#03A9F4</color>
+    <color name="lightBlueColorPrimaryDark">#01579B</color>
+    <color name="lightBlueColorAccent">#FF4081</color>
+    <color name="lightBlueColorBackground">#E1F5FE</color>
+
+    <color name="blueColorInvisiblePrimary">#bfdaef</color>
+    <color name="blueColorPrimary">#2196F3</color>
+    <color name="blueColorPrimaryDark">#0D47A1</color>
+    <color name="blueColorAccent">#FF4081</color>
+    <color name="blueColorBackground">#E3F2FD</color>
+
+    <color name="deepPurpleColorPrimary">#673AB7</color>
+    <color name="deepPurpleColorPrimaryDark">#4527A0</color>
+    <color name="deepPurpleColorAccent">#03A9F4</color>
+    <color name="deepPurpleColorBackground">#EDE7F6</color>
+
+    <color name="purpleColorPrimary">#9C27B0</color>
+    <color name="purpleColorPrimaryDark">#4A148C</color>
+    <color name="purpleColorAccent">#03A9F4</color>
+    <color name="purpleColorBackground">#F3E5F5</color>
+
+    <color name="pinkColorPrimary">#E91E63</color>
+    <color name="pinkColorPrimaryDark">#880E4F</color>
+    <color name="pinkColorAccent">#AA00FF</color>
+
+    <color name="redColorPrimary">#F44336</color>
+    <color name="redColorPrimaryDark">#B71C1C</color>
+    <color name="redColorAccent">#03A9F4</color>
+    <color name="redColorBackground">#FFEBEE</color>
+
+    <color name="grayColorPrimary">#9E9E9E</color>
+    <color name="grayColorPrimaryDark">#757575</color>
+    <color name="grayColorAccent">#FF4081</color>
+    <color name="grayColorBackground">#FAFAFA</color>
+
+    <color name="indigoColorPrimary">#3F51B5</color>
+    <color name="indigoColorPrimaryDark">#303F9F</color>
+    <color name="indigoColorAccent">#FF4081</color>
+    <color name="indigoColorBackground">#E8EAF6</color>
+
+    <color name="border_color">#FF9F9FA0</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#80000000</color>
+
+    <color name="line_color">#4fa5cc</color>
+    <color name="black_95_opacity">#0D000000</color>
+    <color name="black_50_opacity">#80000000</color>
+    <color name="dark_gray">#A9A9A9</color>
+
+</resources>

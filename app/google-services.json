@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "403672870948",
+    "firebase_url": "https://srisurbhiapp.firebaseio.com",
+    "project_id": "srisurbhiapp",
+    "storage_bucket": "srisurbhiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403672870948:android:cc68f79a1913c720",
+        "android_client_info": {
+          "package_name": "com.socal.connection.sri.surabhi.media"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403672870948-4f0fnoie1q5p9526itjpc6oqva41qdpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socal.connection.sri.surabhi.media",
+            "certificate_hash": "3407cd50846d9b78ccd2b423196f23f548ecff74"
+          }
+        },
+        {
+          "client_id": "403672870948-jeel9b2gapb8r600680u41engvkgnk45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socal.connection.sri.surabhi.media",
+            "certificate_hash": "e4c4f152db99fe1b93694f9230d6021fb2da9500"
+          }
+        },
+        {
+          "client_id": "403672870948-rj52bt2ea9k600nlnrmp1312so55o6dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNJ31_uasL-2pT49KnpIo4MHUl39RNC10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403672870948-rj52bt2ea9k600nlnrmp1312so55o6dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

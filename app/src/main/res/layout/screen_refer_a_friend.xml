@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/refer_a_friend_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <EditText
+                android:id="@+id/inviteEmailEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20sp"
+                android:background="@color/black_50_opacity"
+                android:gravity="center"
+                android:hint="Enter Your Email Here"
+                android:padding="15dp"
+                android:textColorHint="#000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/inviteEmailEditText"
+                android:layout_centerInParent="true"
+                android:text="Please enter Email id to send app invite."
+                android:textColor="@color/black_50_opacity"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:text="Refer"
+                android:textAllCaps="false"
+                android:onClick="onClickAction"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

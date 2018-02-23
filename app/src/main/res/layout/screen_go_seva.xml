@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/go_gewa_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/amberColorBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/best_practice"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Best Practices"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/go_puja"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/best_practice"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Go Puja"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sacred_oath"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/go_puja"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Sacred Oath"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sacred_prayer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/sacred_oath"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Sacred Prayer"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,508 @@
+<resources>
+
+    //Amber
+
+    <style name="AppThemeAmber" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/amberColorPrimary</item>
+        <item name="colorPrimaryDark">@color/amberColorPrimaryDark</item>
+        <item name="colorAccent">@color/amberColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:buttonStyle">@style/buttonAmberStyle</item>
+        <item name="android:alertDialogTheme">@style/AmberAlertDialogTheme</item>
+    </style>
+
+    <style name="AmberAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/amberColorPrimary</item>
+        <item name="colorPrimaryDark">@color/amberColorPrimaryDark</item>
+        <item name="colorAccent">@color/amberColorAccent</item>
+    </style>
+
+    <style name="buttonAmberStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/amber_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Blue Gray
+    <style name="AppThemeBlueGray" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueGrayColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueGrayColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueGrayColorAccent</item>
+         
+        <item name="android:buttonStyle">@style/buttonBlueGreyStyle</item>
+        <item name="android:alertDialogTheme">@style/BlueGrayAlertDialogTheme</item>
+    </style>
+
+    <style name="BlueGrayAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/blueGrayColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueGrayColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueGrayColorAccent</item>
+    </style>
+
+    <style name="buttonBlueGreyStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/blue_gray_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Brown
+    <style name="AppThemeBrown" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/brownColorPrimary</item>
+        <item name="colorPrimaryDark">@color/brownColorPrimaryDark</item>
+        <item name="colorAccent">@color/brownColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonBrownStyle</item>
+        <item name="android:alertDialogTheme">@style/BrownAlertDialogTheme</item>
+    </style>
+
+    <style name="BrownAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/brownColorPrimary</item>
+        <item name="colorPrimaryDark">@color/brownColorPrimaryDark</item>
+        <item name="colorAccent">@color/brownColorAccent</item>
+    </style>
+
+    <style name="buttonBrownStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/brown_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Deep Orange
+    <style name="AppThemeDeepOrange" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deepOrangeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/deepOrangeColorPrimaryDark</item>
+        <item name="colorAccent">@color/deepOrangeColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonDeepOrangeStyle</item>
+        <item name="android:alertDialogTheme">@style/DeepOrangeAlertDialogTheme</item>
+    </style>
+
+    <style name="DeepOrangeAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/deepOrangeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/deepOrangeColorPrimaryDark</item>
+        <item name="colorAccent">@color/deepOrangeColorAccent</item>
+    </style>
+
+    <style name="buttonDeepOrangeStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/deep_orange_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Orange
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orangeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/orangeColorPrimaryDark</item>
+        <item name="colorAccent">@color/orangeColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonOrangeStyle</item>
+        <item name="android:alertDialogTheme">@style/OrangeAlertDialogTheme</item>
+    </style>
+
+    <style name="OrangeAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/orangeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/orangeColorPrimaryDark</item>
+        <item name="colorAccent">@color/orangeColorAccent</item>
+    </style>
+
+    <style name="buttonOrangeStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/orange_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Yellow
+
+    <style name="AppThemeYellow" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonYellowStyle</item>
+        <item name="android:alertDialogTheme">@style/YellowAlertDialogTheme</item>
+    </style>
+
+    <style name="YellowAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/yellowColorPrimary</item>
+        <item name="colorPrimaryDark">@color/yellowColorPrimaryDark</item>
+        <item name="colorAccent">@color/yellowColorAccent</item>
+    </style>
+
+    <style name="buttonYellowStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/yellow_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Lime
+
+    <style name="AppThemeLime" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/limeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/limeColorPrimaryDark</item>
+        <item name="colorAccent">@color/limeColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonLimeStyle</item>
+        <item name="android:alertDialogTheme">@style/LimeAlertDialogTheme</item>
+    </style>
+
+    <style name="LimeAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/limeColorPrimary</item>
+        <item name="colorPrimaryDark">@color/limeColorPrimaryDark</item>
+        <item name="colorAccent">@color/limeColorAccent</item>
+    </style>
+
+    <style name="buttonLimeStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/lime_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Light Green
+    <style name="AppThemeLightGreen" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightGreenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightGreenColorPrimaryDark</item>
+        <item name="colorAccent">@color/lightGreenColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonLightGreenStyle</item>
+        <item name="android:alertDialogTheme">@style/LightGreenAlertDialogTheme</item>
+    </style>
+
+    <style name="LightGreenAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/lightGreenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightGreenColorPrimaryDark</item>
+        <item name="colorAccent">@color/lightGreenColorAccent</item>
+    </style>
+
+    <style name="buttonLightGreenStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/light_green_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Green
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonGreenStyle</item>
+        <item name="android:alertDialogTheme">@style/GreenAlertDialogTheme</item>
+    </style>
+
+    <style name="GreenAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/greenColorPrimary</item>
+        <item name="colorPrimaryDark">@color/greenColorPrimaryDark</item>
+        <item name="colorAccent">@color/greenColorAccent</item>
+    </style>
+
+    <style name="buttonGreenStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/green_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Teal
+
+    <style name="AppThemeTeal" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tealColorPrimary</item>
+        <item name="colorPrimaryDark">@color/tealColorPrimaryDark</item>
+        <item name="colorAccent">@color/tealColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonTealStyle</item>
+        <item name="android:alertDialogTheme">@style/TealAlertDialogTheme</item>
+    </style>
+
+    <style name="TealAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/tealColorPrimary</item>
+        <item name="colorPrimaryDark">@color/tealColorPrimaryDark</item>
+        <item name="colorAccent">@color/tealColorAccent</item>
+    </style>
+
+    <style name="buttonTealStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/teal_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //CYAN
+
+    <style name="AppThemeCyan" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cyanColorPrimary</item>
+        <item name="colorPrimaryDark">@color/cyanColorPrimaryDark</item>
+        <item name="colorAccent">@color/cyanColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonCyanStyle</item>
+        <item name="android:alertDialogTheme">@style/CyanAlertDialogTheme</item>
+    </style>
+
+    <style name="CyanAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/cyanColorPrimary</item>
+        <item name="colorPrimaryDark">@color/cyanColorPrimaryDark</item>
+        <item name="colorAccent">@color/cyanColorAccent</item>
+    </style>
+
+    <style name="buttonCyanStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/cyan_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Light Blue
+
+    <style name="AppThemeLightBlue" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightBlueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightBlueColorPrimaryDark</item>
+        <item name="colorAccent">@color/lightBlueColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonLightBlueStyle</item>
+        <item name="android:alertDialogTheme">@style/LightBlueAlertDialogTheme</item>
+    </style>
+
+    <style name="LightBlueAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/lightBlueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightBlueColorPrimaryDark</item>
+        <item name="colorAccent">@color/lightBlueColorAccent</item>
+    </style>
+
+    <style name="buttonLightBlueStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/light_blue_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Blue
+
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonBlueStyle</item>
+        <item name="android:alertDialogTheme">@style/BlueAlertDialogTheme</item>
+    </style>
+
+    <style name="BlueAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+    </style>
+
+    <style name="buttonBlueStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/blue_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //DeepPurple
+    <style name="AppThemeDeepPurple" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deepPurpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/deepPurpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/deepPurpleColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonDeepPurpleStyle</item>
+        <item name="android:alertDialogTheme">@style/DeepPurpleAlertDialogTheme</item>
+    </style>
+
+    <style name="DeepPurpleAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/deepPurpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/deepPurpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/deepPurpleColorAccent</item>
+    </style>
+
+    <style name="buttonDeepPurpleStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/deep_purple_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Purple
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonPurpleStyle</item>
+        <item name="android:alertDialogTheme">@style/PurpleAlertDialogTheme</item>
+    </style>
+
+    <style name="PurpleAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/purpleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/purpleColorPrimaryDark</item>
+        <item name="colorAccent">@color/purpleColorAccent</item>
+    </style>
+
+    <style name="buttonPurpleStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/purple_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Pink
+    <style name="AppThemePink" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pinkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/pinkColorPrimaryDark</item>
+        <item name="colorAccent">@color/pinkColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonPinkStyle</item>
+        <item name="android:alertDialogTheme">@style/PinkAlertDialogTheme</item>
+    </style>
+
+    <style name="PinkAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/pinkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/pinkColorPrimaryDark</item>
+        <item name="colorAccent">@color/pinkColorAccent</item>
+    </style>
+
+    <style name="buttonPinkStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/pink_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //Red
+    <style name="AppThemeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonRedStyle</item>
+        <item name="android:alertDialogTheme">@style/RedAlertDialogTheme</item>
+    </style>
+
+    <style name="RedAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <item name="colorAccent">@color/redColorAccent</item>
+    </style>
+
+    <style name="buttonRedStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/red_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    //gray
+    <style name="AppThemeGray" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grayColorPrimary</item>
+        <item name="colorPrimaryDark">@color/grayColorPrimaryDark</item>
+        <item name="colorAccent">@color/grayColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonGrayStyle</item>
+        <item name="android:alertDialogTheme">@style/GrayAlertDialogTheme</item>
+    </style>
+
+    <style name="GrayAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/grayColorPrimary</item>
+        <item name="colorPrimaryDark">@color/grayColorPrimaryDark</item>
+        <item name="colorAccent">@color/grayColorAccent</item>
+    </style>
+
+    <style name="buttonGrayStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/gray_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    //Blue color
+    <style name="AppThemeIndigo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/indigoColorPrimary</item>
+        <item name="colorPrimaryDark">@color/indigoColorPrimaryDark</item>
+        <item name="colorAccent">@color/indigoColorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:buttonStyle">@style/buttonIndigoStyle</item>
+        <item name="android:alertDialogTheme">@style/IndigoAlertDialogTheme</item>
+    </style>
+
+    <style name="IndigoAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/indigoColorPrimary</item>
+        <item name="colorPrimaryDark">@color/indigoColorPrimaryDark</item>
+        <item name="colorAccent">@color/indigoColorAccent</item>
+    </style>
+
+    <style name="buttonIndigoStyle" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/indigo_color_selector</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="SeparatorBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/separator_bar_height</item>
+        <item name="android:background">@color/border_color</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="MY_DIALOG" parent="android:Theme">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>

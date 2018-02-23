@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/surbhi_connection_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amberColorBackground"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="About the Campaign"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/campaing_videos"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/about"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Campaign Videos"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cooinator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/campaing_videos"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Coordinators"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/goshala_directory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/cooinator"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Goshala Directory"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/other_related"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/goshala_directory"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Other Related Websites"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/other_related"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="About Us"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prabhupada_uvaca_daily_excepts"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/about_us"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Prabhupada Uvaca -Daily Excepts"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weekly_quote"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/prabhupada_uvaca_daily_excepts"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Weekly Quote"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

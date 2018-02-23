@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/get_involved_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/amberColorBackground"
+    android:gravity="center"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/assoicated_projects"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Associated Projects"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/assoicated_part2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/assoicated_projects"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="@string/How_To_Get_Involved"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/genation_donation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/assoicated_part2"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="@string/genation_donation"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

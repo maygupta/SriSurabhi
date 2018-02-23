@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/surabhi_media_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amberColorBackground"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/books_tv"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Books"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/presentations_books"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/books_tv"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Powerpoints - Golden Jubilee"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reports_tv"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/presentations_books"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Quarterly Reports"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/reports_tv"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Videos"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pamplet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/video"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Pamphlets"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sri_surabhi_mantra_and_other_audios"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/pamplet"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Sri Surabhi Mantra and other Audio"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

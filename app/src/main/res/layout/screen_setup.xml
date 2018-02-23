@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setup_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_toolbar">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/mainbuttonpanel"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/mainbuttonseparator">
+
+            <LinearLayout
+                android:id="@+id/setup_main_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/maintoplabel"
+                android:gravity="fill"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/normal_include_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <include layout="@layout/setup_normal_layout" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/admin_include_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <include layout="@layout/setup_admin_layout" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:id="@+id/mainbuttonseparator"
+            style="@style/SeparatorBar"
+            android:layout_above="@+id/mainbuttonpanel" />
+
+        <ScrollView
+            android:id="@+id/mainbuttonpanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/picksetupfileother"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/default_button_height"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:onClick="onClickAction"
+                        android:text="@string/button_PickFiles"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <Button
+                        android:id="@+id/setupsave"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/default_button_height"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:onClick="onClickAction"
+                        android:text="@string/button_SaveSetup"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/adminOptions"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/default_button_height"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:onClick="onClickAction"
+                        android:text="@string/setup_config_password_label"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <Button
+                        android:id="@+id/testconnect"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/default_button_height"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:onClick="onClickAction"
+                        android:text="@string/button_Test"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/text_size_normal" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/exit_setup"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/default_button_height"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:onClick="onClickAction"
+                        android:text="@string/exit_tag"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/default_button_height"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all_about_cows_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/amberColorBackground"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/all_about_cows_a1_vs_a2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="A1 Milk vs. A2 Milk"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/all_about_cows_desi_cow"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/all_about_cows_a1_vs_a2"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Desi Cow"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/all_about_cows_Indigenous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/all_about_cows_desi_cow"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:paddingBottom="@dimen/dimen_5dp"
+        android:paddingTop="@dimen/dimen_5dp"
+        android:text="Indigenous Cows vs. Exotic Cows"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <!--<TextView
+        android:id="@+id/all_about_cows_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/all_about_cows_Indigenous"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_view_boder"
+        android:gravity="center"
+        android:onClick="onClickAction"
+        android:text="Quotes"
+        android:textSize="22dp"
+        android:textStyle="bold" />-->
+</RelativeLayout>

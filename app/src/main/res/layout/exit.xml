@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="invisible">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="@dimen/exit_leave_review_button_size_w"
+                    android:layout_height="@dimen/exit_leave_review_button_size_h"
+                    android:background="@drawable/exit_selector"
+                    android:onClick="onClickAction"
+                    android:text="@string/exit_no"
+                    android:textSize="@dimen/exit_button_font_size" />
+
+                <Button
+                    android:layout_width="@dimen/exit_leave_review_button_size_w"
+                    android:layout_height="@dimen/exit_leave_review_button_size_h"
+                    android:layout_marginLeft="@dimen/button_margin"
+                    android:background="@drawable/exit_selector"
+                    android:onClick="onClickAction"
+                    android:text="@string/exit_yes"
+                    android:textSize="@dimen/exit_button_font_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

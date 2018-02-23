@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appname "Sri Surabhi"><!ENTITY dfiId "dfisupport@docfocus.ca">]>
+<resources>
+
+    <string name="app_name">&appname;</string>
+    <string name="dfi_mail_id">&dfiId;</string>
+    <string name="exit_yes">Yes</string>
+    <string name="exit_no">No</string>
+    <string name="ok_tag">OK</string>
+    <string name="save_tag">Save</string>
+    <string name="cancel_tag">Cancel</string>
+    <string name="exit_tag">Exit</string>
+
+    <!-- Meuns -->
+    <string name="menu_exit_app">Close SampleApps</string>
+    <string name="menu_about">About</string>
+    <string name="menu_setup">Setup</string>
+    <string name="menu_update_licence">Update Licence</string>
+
+    //Setup Screen
+    <string name="setup_deviceinfo_label">Device Info</string>
+    <string name="setup_devicename_label">Device Name</string>
+    <string name="setup_filenetwork_label">File Network</string>
+    <string name="setup_server_path_label">Server Path</string>
+    <string name="setup_licensekey_label">License Key</string>
+    <string name="setup_password_label">Password</string>
+    <string name="setup_username_label">Username</string>
+    <string name="setup_ftp_security_label">FTP File Type</string>
+    <string name="setup_servers_label">Servers</string>
+    <string name="setup_license_label">License Types</string>
+    <string name="setup_license_option_label">Device License Option</string>
+    <string name="setup_config_password_label">Admin Password</string>
+    <string name="setup_licence_sync_label">Site Licensed?</string>
+    <string name="setup_test">Connection Test</string>
+    <string name="setup_select_license_option_type">Select Device License Option</string>
+    <string name="setup_select_server_type">Select Server Type</string>
+    <string name="setup_select_license_type">Select License Type</string>
+    <string name="setup_select_ftp_security_type">Select FTP Security Type</string>
+    <string name="setup_orientation">Orientation</string>
+    <string name="setup_language">Language</string>
+    <string name="setup_select_orientation">Select Orientation</string>
+    <string name="setup_select_language">Select Language</string>
+    <string name="setup_select_theme_color">Select Theme Color</string>
+    <string name="setup_colour">Colour</string>
+    <string name="setup_please_put_device_name">Please put Device Name.</string>
+    <string name="setup_please_select_license_type">Please select License Type.</string>
+    <string name="setup_please_select_server_type">Please select Server Type.</string>
+    <string name="setup_please_select_security_type">Please select Security Type.</string>
+    <string name="setup_please_put_file_name">Please put File Name.</string>
+    <string name="setup_please_put_password">Please put Password.</string>
+    <string name="setup_please_put_pdf_path">Please put PDF Path.</string>
+    <string name="setup_please_select_file_type">Please select File Type.</string>
+    <string name="setup_please_select_language_type">Please select Language Type.</string>
+    <string name="setup_please_select_colour_theme">Please select Colour Theme.</string>
+    <string name="setup_please_put_admin_password1">Please put Admin Password.</string>
+    <string name="setup_please_put_user_name">Please put user name.</string>
+    <string name="setup_setup_has_been_saved">Setup has been saved.</string>
+    <string name="setup_test_connection_dot">Test Connection...</string>
+    <string name="setup_server_has_been_connected_successfully">Server has been connected successfully.</string>
+    <string name="setup_log_on_to_server">Log on to server</string>
+    <string name="setup_connect_to_server">Connect to server</string>
+    <string name="setup_enter_new_admin_password">Enter Admin Password!</string>
+    <string name="setup_enter_new_password">Enter New Password.</string>
+    <string name="setup_enter_re_password">Enter Re-Password.</string>
+    <string name="setup_enter_old_password">Enter Old Password.</string>
+    <string name="setup_show_password">Show Password</string>
+    <string name="setup_admin_password_has_been_successfully_changed">Admin Password has been successfully changed.</string>
+    <string name="setup_old_password_is_wrong">Old password is wrong.</string>
+    <string name="setup_re_enter_password_is_wrong">Please, Re-Enter Password.</string>
+    <string name="setup_Please_enter_the_administrator_password">Please enter the administrator password.</string>
+    <string name="setup_The_administrator_password_entered_is_invalid">The administrator password entered is invalid.</string>
+
+    <string name="setup_user_name">User Name</string>
+    <string name="setup_server_id">Server Id</string>
+    <string name="setup_server_folder">Server Folder</string>
+
+    <string name="both_tag">Both</string>
+    <string name="landscape_tag">Landscape</string>
+    <string name="portrait_tag">Portrait</string>
+
+    <string name="ftp_tag">FTP</string>
+    <string name="ftps_tag">FTPS</string>
+    <string name="sftp_tag">SFTP</string>
+
+    <string name="local_license_tag">Local License</string>
+    <string name="site_license_tag">Site License</string>
+
+    <string name="ftp_server_tag">FTP Server</string>
+    <string name="file_server_tag">File Server</string>
+    <string name="device_server_tag">Device Server</string>
+    <string name="google_drive_server_tag">Google Drive Server</string>
+
+
+    <string name="about_signit_free">About SampleApps Free</string>
+    <string name="about_signit_lite">About SampleApps Lite</string>
+    <string name="about_signit_standard">About SampleApps Standard</string>
+    <string name="about_signit_enterprise">About SampleApps Enterprise</string>
+
+    <string name="error_dot">Error...</string>
+
+    <string name="permission_accept_btn">Permission Accept</string>
+    <string name="permission_denied_btn">Permission Denied</string>
+
+    // screen
+    <string name="screen_setup">Setup Screen</string>
+
+    <string name="legalAgreement">By %1$s this document you are entering into a legally binding contract</string>
+    <string name="button_Test">Test Connection</string>
+
+
+    <string name="email_to">To</string>
+    <string name="email_deviceinfo">Device Info</string>
+    <string name="email_fullname">Full Name</string>
+    <string name="email_licenceType">Licence Type</string>
+    <string name="email_companyname">Company Name</string>
+    <string name="email_phonenumber">Phone Number</string>
+    <string name="email_postaladdress">Address</string>
+    <string name="email_emailaddress">Reply-To Email Address</string>
+    <string name="email_send_tag">Send</string>
+    <string name="email_discard_tag">Discard</string>
+    <string name="email_screen">Email Screen</string>
+    <string name="email_payment_details_file_is_not">Payment Details file is not available, please purchase first or contact with admin!</string>
+    <string name="email_device_code">Device Code</string>
+    <string name="email_license_kay_subject">License Key - &appname; </string>
+    <string name="email_there_are_no_email_applications_installed">There are no email applications installed.</string>
+
+
+    <string name="add_permission">Add Permission</string>
+    <string name="add_permission_message">This permission for access account list, which have present in current device.</string>
+
+
+    <string name="network_connection_is_not_available">Network connection is not available.</string>
+    <string name="this_app_needs_to_access_your_google_account">This app needs to access your Google account (via Contacts).</string>
+    <string name="google_api_result_not_match">This app requires Google Play Services. Please install Google Play Services on your device and relaunch this app.</string>
+
+    <string name="eval_text_connection">TestConnection...</string>
+    <string name="eval_server_is_connected_sucessfully">Server is connected Successfully!</string>
+    <string name="error_message_start">The following error occurred:\\n</string>
+    <string name="button_Activate">Activate</string>
+    <string name="button_Email">Email</string>
+    <string name="button_PickFiles">PickFiles</string>
+    <string name="button_Payment">Payment</string>
+    <string name="button_Help">Help</string>
+    <string name="licence_screen">License Screen</string>
+
+    <string name="help_dialog_tittle">How to activate license</string>
+    <string name="help_dialog_message">Please click the Email button and enter your full name, your company name,
+        address and phone number and email to DFI Support at &dfiId; for an SampleApps activation code.  An activation code will
+        be email back to you that is required to activate this device. In case DFI Support has already informed you to get License
+        key from Server, please press Pick button.</string>
+
+    <string name="licence_kay_wrong_message">Wrong License Key has wrong, please try more or contact with admin!</string>
+
+    <string name="activate_tag">Activate</string>
+    <string name="activate_message">Device is activated sucessfully.</string>
+    <string name="folderShort_choice_label">Folder Short:</string>
+    <string name="pick_license_setup">Pick License/Setup</string>
+    <string name="folder_can_be_read">] folder can\'t be read!</string>
+    <string name="was_copied_to_signIT_ADG_folder">was copied to &appname; Folder.</string>
+    <string name="pickfile_choice_label">Pick:</string>
+    <string name="could_not_remove_non_existing">Could not remove non-existing resource</string>
+    <string name="successfully_removed_resource">Successfully removed resource</string>
+
+    <!-- folder select option-->
+    <string name="folder_short_by_name">Name</string>
+    <string name="folder_short_by_date">Date</string>
+
+    <!-- pickfile_options -->
+    <string name="pickfile_options_license">License File</string>
+    <string name="pickfile_copy_to_server_options_license">Site License File</string>
+    <string name="pickfile_options_setup">Setup File</string>
+    <string name="pickfile_options_folder">Folder To Copy Files</string>
+    <string name="pickfile_options_subfolder">Folder To Copy /W Subfolders</string>
+    <string name="pickfile_options_copy_file_on_in_folder">Copy File To Local/Server In Folder</string>
+
+    <string name="copyFolder">Copy Folder</string>
+    <string name="buy_with_google_pay">Buy with Google</string>
+    <string name="lite_tag">Lite</string>
+    <string name="standared_tag">Standared</string>
+    <string name="enterprise_tag">Enterprise</string>
+    <string name="buy_with_paypal_pay">Buy with Paypal</string>
+    <string name="button_SaveSetup">Save Setup</string>
+
+    <string name="permission">Permission!</string>
+    <string name="sdcard_permission_message">&appname; Application Need to create &appname; folder
+        on Internal/External memory, so please provde the SDCard Read and Write Persmission, then we
+        will move for ward.</string>
+
+
+    // Language Keys
+    <string name="lang_english_tag">English</string>
+    <string name="lang_french_tag">French</string>
+    <string name="lang_turkish_tag">Turkish</string>
+    <string name="lang_portuguese_tag">Portuguese</string>
+    <string name="lang_Spanish_tag">Spanish</string>
+    <string name="lang_dutch_tag">Dutch</string>
+    <string name="lang_czech_tag">Czech</string>
+    <string name="lang_german_tag">German</string>
+    <string name="lang_finnish_tag">Finnish</string>
+    <string name="lang_indonesian_tag">Indonesian</string>
+    <string name="lang_Japanese_tag">Japanese</string>
+    <string name="lang_italian_tag">Italian</string>
+    <string name="lang_Polish_tag">Polish</string>
+    <string name="lang_swedish_tag">Swedish</string>
+    <string name="lang_vietnamese_tag">Vietnamese</string>
+
+    //Colour Keys
+    <string name="color_amber_tag">Amber</string>
+    <string name="color_blue_gray_tag">Blue Gray</string>
+    <string name="color_blue_tag">Blue</string>
+    <string name="color_brown_tag">Brown</string>
+    <string name="color_cyan_tag">Cyan</string>
+    <string name="color_deep_orange_tag">Deep Orange</string>
+    <string name="color_deep_purple_tag">Deep Purple</string>
+    <string name="color_Green_tag">Green</string>
+    <string name="color_grey_tag">Grey</string>
+    <string name="color_indigo_tag">Indigo</string>
+    <string name="color_light_blue_tag">Light Blue</string>
+    <string name="color_light_green_tag">Light Green</string>
+    <string name="color_lime_tag">Lime</string>
+    <string name="color_orange_tag">Orange</string>
+    <string name="color_pink_tag">Pink</string>
+    <string name="color_purple_tag">Purple</string>
+    <string name="color_red_tag">Red</string>
+    <string name="color_teal_tag">Teal</string>
+    <string name="color_yellow_tag">Yellow</string>
+
+    // License Keys
+    <string name="lic_free_tag">Free</string>
+    <string name="lic_lite_tag">Lite</string>
+    <string name="lic_standard_tag">Standard</string>
+    <string name="lic_enterprise_tag">Enterprise</string>
+
+    // new XML
+    <string name="login_username">User Name</string>
+    <string name="login_user_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_name">Full Name</string>
+    <string name="login_email">Please enter Email here</string>
+    <string name="login_number">Please enter phone number here</string>
+    <string name="sign_up_screen_open"><u>Not registered click here</u></string>
+    <string name="loading_dot">Loading...</string>
+    <string name="All_about_Cows">All about Cows</string>
+    <string name="Go_Seva">Go Seva</string>
+    <string name="Panchgavya">Panchgavya</string>
+    <string name="Surabhi_Media">Surabhi Media</string>
+    <string name="News">News</string>
+    <string name="VRT">VRT</string>
+    <string name="Surabhi_Connect">Surabhi Connect</string>
+    <string name="Membership">Membership</string>
+    <string name="Get_Involved">Get Involved</string>
+    <!--
+    We are <b><i>so</i></b> glad to see you.
+    -->
+    <string name="panchgyana_desc_text">Panchgavya in Sanskrit means a blend of five products obtained from cow and holds an important place in Ayurvedic medicine.
+        It is basically a concoction of cow’s dung, urine, milk, curd and ghee. It doesn’t only heal one’s body but also lifts up depressed mental states thereby
+        providing positivity, longevity and magnetic charisma. Due to such benefits of Panchgavya, it is often called as a divine elixir by Ayurvedacharyas. Ancient
+        scriptures like bhel sanhita, kashyap sanhita, charak sanhita, sushrut sanhita, gad nigrah, ras tantra saar and yog ratnakar granth hail about glory of
+        the mix of cow’s five essences – the Panchgavya.\n\n
+        The Ayurvedacharyas prescribe Panchgavya as the apex of total health, both physiological as well as psychological. Panchgavya therapy also called as Cowpathy
+        has become popular world wide.</string>
+
+    <string name="cow_dung">Cow Dung</string>
+    <string name="panchgyana_cows_dung_text"> Cow dung is anti-septic. It has anti-bacterial and fungicidal action. Thus a filtrate of the suspension made by thoroughly mixing cow dung and water
+        forms one of the main ingredients of skin ointments, which are useful in serious skin conditions like psoriasis, eczema and gangrene. Her dung is also an
+        effective disinfectant for floors and walls that even protects from radioactive rays. Not just that, 1 Kg of Indian Cow’s Dung mixed with Biomass
+        produces 20-25 Kg of Bio Fertilizer. And 1 Indian Cow’s dung on an average can produce enough electricity to light two 100-watt light bulbs for 24
+        hours a day.</string>
+    <string name="cow_urine">Cow Urine</string>
+    <string name="panchgyana_cow_urine_text"> <b><i></i></b> Cow’s urine has been acclaimed by Ayurveda as a therapeutic. It has medicinal properties as well as metaphysical benefits.
+        Today, it is globally acknowledged that cow’s urine can cure more than 3000 diseases. Cancer, diabetes, blood pressure, asthma, psoriasis, eczema, ringworm, itching, heart attack,
+        blockage in arteries, fits, piles, prostrate, arthritis, migraine, thyroid, ulcer, acidity, constipation, eosinophilia, cough,  phlegm, varicose veins, gynaecological problems and
+        ear and nose problems to name a few. It is also practically observed that spraying drops of cow urine over floor keeps evil spirits away.</string>
+
+    <string name="cow_milk">Cow Milk</string>
+    <string name="panchgyana_cow_milk_text"> According to Ayurveda, cow milk provides special and unique nutrition that cannot be derived from any other type of food. Cow milk, when digested
+        properly, nourishes all the tissues, promotes balanced emotions, and helps to balance all the doshas. It is one of the most important foods to promote
+        Ojas (the force that maintains life). Indian Cow produces A2 quality Milk which contains Beta Casein Protein that strengthens the digestive as well as
+        the neurological system unlike the A1 Milk produced by Jersey Cows that contain an opiate called betacasomorphine and thus causes brain illnesses such
+        as autism, schizophrenia etc.</string>
+
+    <string name="cow_ghee">Ghee</string>
+    <string name="panchgyana_cow_ghee_text"> In Ayurveda, cow\'s Ghee is believed to be the best for human consumption. It is full of nutritive qualities and an ideal diet for these heart patients
+        who suffer due to excessive cholesterol in their blood. Its regular consumption enhances physical and mental strength, keeps the body healthy and
+        increases the potency of the body. It is not only nutritive, but also helps in taking out the impurities from the body. It enhances eyesight, keeps
+        muscles and tendons healthy, and bone sturdy yet supple.</string>
+
+    <string name="cow_dahi">Dahi</string>
+    <string name="panchgyana_cow_dahi_text">Dahi: Dahi (Curd) is a by-product of cow milk. The Sanskrit name is for curd is dahi. All the leading practitioners of Ayurveda, including Charaka and Sushruta,
+        have written on its qualities and usefulness. It is considered as one of the most wholesome food items throughout the world. Curd has its therapeutic
+        value in many diseases. It has been described as a tonic and is credited with the properties that prevent premature aging. Curd also brings relief to
+        patients of diarrhoea and dysentery and is recommended in chronic specific and non-specific colitis.
+Panchagavya is also a traditional method, used to safeguard plants and soil micro-organisms and to increase plant production. Panchagavya application is
+        found to be more profitable than recommended fertilizer application and chemical spray.
+    </string>
+    <string name="news">News</string>
+    <string name="membership">Membership</string>
+    <string name="benifits">Benefits</string>
+    <string name="panchgyana_cow_benifits_text">Improves body immunity\n\nTastes sweet and easy to Digest\n
+        \nGives coolant effect on body and mind\n\nNourishes body tissues\n\nControls uric acid in the body\n
+        \nEnhance memory and brain power\n\nRelieves joint pain\n\nRelieves stomach ailments\n
+        \nCleans cholestrol deposits of blood vessels\n\nLowers cardiovascular problems\n
+        \nLess bloating abdominal pain and firmer stools\n
+        \nAbility to fight against diseases and disorders like obesity, asthma and mental problems\n
+        \nBoosts breast milk in lactating mothers\n\nRelieves dizziness, tiredness, excessive thirst and hunger\n
+        \nNext best thing to Mother's milk is cow milk for infants\n
+        \nNourishes body tissues and rejuvenates giving life longevity</string>
+    <string name="How_To_Get_Involved">How to Get Involved with Sri Surabhi Global</string>
+    <string name="campaign_membership">Membership</string>
+    <string name="notification_error_ssl_cert_invalid">notification error ssl cert invalid</string>
+    <string name="genation_donation">General Donation</string>
+</resources>

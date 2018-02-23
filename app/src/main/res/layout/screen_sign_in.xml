@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_in_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please signin to continue"
+                android:textColor="@color/black_50_opacity"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/sign_in_user_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="@string/login_user_email"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/sign_in_password"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="@string/login_password"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:onClick="onClickAction"
+                android:text="Forgot Password ?"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="" />
+
+            <Button
+                android:id="@+id/login_sign_in_btn"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_below="@id/forgot_password"
+                android:onClick="onClickAction"
+                android:text="Sign In"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sign_up_screen_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="onClickAction"
+                android:text="@string/sign_up_screen_open"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

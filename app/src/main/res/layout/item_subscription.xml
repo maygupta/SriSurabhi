@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sub_item_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Companing Supporter Membership"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/sub_item_last_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Payment: renewed sunday ,17th Oct"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/sub_item_joined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Joined: 12 Oct (2 Months 5 days ago)"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/sub_item_btn"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:text="Renew Now @ 9"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+</LinearLayout>

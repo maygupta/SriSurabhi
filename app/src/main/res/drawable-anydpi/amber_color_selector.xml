@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- enabled -->
+    <item android:drawable="@drawable/amber_invisible_shape" android:state_enabled="false" />
+    <!-- pressed -->
+    <item android:drawable="@drawable/amber_shape_active" android:state_pressed="true" />
+    <!-- default -->
+    <item android:drawable="@drawable/amber_shape" />
+
+</selector>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/email_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/my_toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:gravity="top">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottombar">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_to"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/email_ToField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:enabled="false"
+                        android:inputType="textEmailAddress"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_deviceinfo"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/mail_deviceInfoField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:enabled="false"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_licenceType"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/licenceTypePeacker"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/setup_textbox_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="2"
+                        android:hint="@string/setup_select_license_type"
+                        android:maxLength="50" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_fullname"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/mail_fullNameField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_companyname"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/mail_companyField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_postaladdress"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/mail_postalAddressField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_phonenumber"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/email_phoneField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:inputType="phone"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/email_field_leftpadding"
+                        android:text="@string/email_emailaddress"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/email_emailFromField"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/edit_view_height"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_view_boder"
+                        android:inputType="textEmailAddress"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+        <View
+            android:id="@+id/bottombar"
+            style="@style/SeparatorBar"
+            android:layout_above="@+id/buttonbar" />
+
+        <TableLayout
+            android:id="@+id/buttonbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/sendEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/setup_button_height"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickAction"
+                    android:text="@string/email_send_tag"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <Button
+                    android:id="@+id/discard_email"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/setup_button_height"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:onClick="onClickAction"
+                    android:text="@string/email_discard_tag"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/text_size_normal" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
